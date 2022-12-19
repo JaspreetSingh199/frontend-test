@@ -33,7 +33,7 @@ class LogIn extends Component {
     console.log(formData.email)
     console.log(formData.Password)
 
-    let res = await fetch("http://localhost:3030/api/login", {
+    let res = await fetch("https://northern-summer-authorization.glitch.me/api/login", {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
